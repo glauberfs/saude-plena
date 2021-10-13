@@ -1,0 +1,20 @@
+/* GALERIA */
+.swiper-slide img {
+    border-radius: 0.125rem;
+}
+.custom-pagination .swiper-pagination-bullet {
+    background-color: transparent;
+    width: 0.625rem;
+    height: 0.625rem;
+    opacity: 1;
+}
+.custom-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #f92a11;
+}
+.pagination-red .swiper-pagination-bullet {
+    border: 0.125rem solid #f92a11;
+}
+.pagination-orange .swiper-pagination-bullet {
+    border: 0.125rem solid #ed7d00;
+}
+/* FIM GALERIA */

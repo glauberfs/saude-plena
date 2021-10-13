@@ -1,0 +1,562 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <title>E +</title>
+
+  <meta name="google-site-verification" content="2nC-r8pPsNlc9YR0UJyIsL7JFvEAPyQsw1Kh7MdIdpc" />
+
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="E+">
+    <meta name="author" content="E+">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="E+" />
+    <meta name="twitter:title" content="E+" />
+    <meta name="twitter:image" content="" />
+    <meta property="og:locale" content="pt-br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="E+" />
+    <meta property="og:description" content="E+" />
+    <meta property="og:site_name" content="E+" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="imgs/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Tipografia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-5.0.2.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/e+.css">
+</head>
+<body>
+<header>
+    <!-- navs desktop -->
+    <nav class="d-none d-lg-block" >
+        <ul class="uai-bar-top-new d-flex justify-content-center align-items-center standard-font f14-PtSans color-gray0 bold">
+            <li><a href="https://www.em.com.br/" target="_blank" >Notícias</a></li>        
+            <li><a href="https://www.mg.superesportes.com.br/" target="_blank" >Esporte</a></li>
+            <li><a href="https://www.uai.com.br/entretenimento/" target="_blank" >Entretenimento</a></li>
+            <li>
+            <a class="standard-font f14-PtSans bold" href="https://estadodeminas.vrum.com.br/" target="_blank">Veículos</a>
+            </li>
+            <li><a class="logo" href="https://www.uai.com.br/" target="_blank"><img src="imgs/logo-uai-mobile.svg" alt="UAI" width="50" height="34" ></a>
+            </li>
+            <li><a href="https://estadodeminas.lugarcerto.com.br/" target="_blank">Imóveis</a></li>
+            <li><a href="https://www.uai.com.br/saude/" target="_blank">Saúde Plena</a></li>
+            <li><a href="https://www.alterosa.com.br/" target="_blank">TV Alterosa</a></li>
+            <li><a href="https://parceiros.uai.com.br/" target="_blank">Parceiros</a></li>
+        </ul>
+    </nav>
+    <div class="wrap-fixed d-none d-lg-block" >
+        <div class="fixed-one" >
+            <nav class="container d-flex justify-content-between uai-bar-middle align-items-center" >
+                <ul class="bar-redes-sociais d-flex" >
+                    <li><a href="https://www.facebook.com/PortalUAI" target="_blank"><img src="imgs/icone-facebook.svg" width="30" height="30" alt="icone facebook" ></a></li>
+                    <li><a href="https://twitter.com/portaluai" target="_blank"><img src="imgs/icone-twitter.svg" width="30" height="30" alt="icone twitter" ></a></li>
+                    <li><a href="https://www.instagram.com/portaluai/" target="_blank"><img src="imgs/icone-instagram.svg" width="30" height="30" alt="icone instagram" ></a></li>
+                    <li><a href="https://www.youtube.com/user/PortalUai" target="_blank"><img src="imgs/icone-youtube.svg" width="30" height="30" alt="icone youtube" ></a></li>
+                </ul>
+                <a class="bg-blue1 me-128" ><img src="imgs/logo-e+.svg" height="60" width="80" alt="logo" ></a>
+                <ul class="bar-login-busca d-flex mt-2" >
+                    <li class="busca-topo-input d-none mx-0 align-self-center" ><input class="float-end" type="text" ></li>
+                    <li class="me-2" ><a href="javascript:void(0);" class="busca-topo-botao" ><img src="imgs/icone-busca-blue1.svg" alt="icone busca" width="17" height="17" ></a></li>
+                    <li><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal_login" ><img src="imgs/icone-usuario-blue1.svg" alt="icone login" width="24" height="24" ></a></li>
+                </ul>
+            </nav>
+            <nav class="d-none d-lg-flex justify-content-center uai-bar-bottom align-items-center" >
+                <ul class="uai-menu-principal d-flex justify-content-center align-items-center color-blue1">
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/famosos/" target="_blank">Famosos</a></li>        
+                    <li class="tem-submenu" >
+                        <a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/series-e-tv/" target="_blank">Séries e TV</a>
+                        <div class="espacamento-menu" >
+                            <ul class="submenu-personalizado" >
+                                <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/realities/" target="_blank">realities</a></li>
+                                <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/programacao/" target="_blank">programação</a></li>   
+                            </ul>
+                        </div>
+                        <div class="seta-menu"></div>
+                    </li>
+                    <li class="selected-active" ><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/cinema/" target="_blank">Cinema</a></li>
+                    <li class="tem-submenu">
+                        <a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/musica/" target="_blank">Música</a>
+                        <div class="espacamento-menu" >
+                            <ul class="submenu-personalizado" >    
+                                <li><a class="standard-font f12 bold"  href="#" target="_blank">sertaneja</a></li>   
+                            </ul>
+                        </div>
+                        <div class="seta-menu" ></div>
+                    </li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/trends/" target="_blank">Trends</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/comportamento/" target="_blank">Comportamento</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/gastronomia/" target="_blank">Gastronomia</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/tech/" target="_blank">Tech</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/promocao/" target="_blank">Promoções</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- fim navs desktop -->
+    <!-- nav mobile -->
+    <nav class="d-block d-lg-none mobile-nav-screen-wrapper" >
+        <ul class="side-nav menu-personalizado-mobile color-blue1" >
+            <li class="close-btn-parent" ><a href="javascript:void(0)" class="close-btn">&times;</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/famosos/" target="_blank" >Famosos</a></li>        
+            <li class="tem-submenu-mobile" >
+                <a class="standard-font f12 bold" href="javascript:void(0);">Séries e TV</a>
+                <ul class="submenu-personalizado-mobile" > 
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/">Séries e TV</a></li> 
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/realities/" target="_blank" >realities</a></li>
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/programacao/" target="_blank">programação</a></li>   
+                </ul>
+            </li>
+            <li><a class="standard-font f12 bold selected-active" href="https://www.uai.com.br/entretenimento/cinema/" target="_blank">Cinema</a></li>
+            <li class="tem-submenu-mobile">
+                <a class="standard-font f12 bold" href="javascript:void(0);">Música</a>
+                <ul class="submenu-personalizado-mobile" >
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/musica/" target="_blank">Música</a></li>   
+                    <li><a class="standard-font f12 bold"  href="#" target="_blank">sertaneja</a></li>
+                </ul>
+            </li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/trends/" target="_blank">Trends</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/comportamento/" target="_blank">Comportamento</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/gastronomia/" target="_blank">Gastronomia</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/tech/" target="_blank">Tech</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/promocao/" target="_blank">Promoções</a></li>
+        </ul>
+    </nav>
+    <nav class="d-block d-lg-none mobile-nav-wrapper mw-100" >
+        <div class="d-flex justify-content-between" >
+            <span class="nav-sandwich mt-2">&#9776;</span>
+            <a class="bg-blue1 ms-5" ><img src="imgs/logo-e+.svg" height="48" width="64" alt="logo" ></a>
+            <ul class="bar-login-busca d-flex mt-2" >
+                <li class="busca-topo-input d-none mx-0 align-self-center" ><input class="float-end" type="text" ></li>
+                <li class="me-2" ><a href="javascript:void(0);" class="busca-topo-botao" ><img src="imgs/icone-busca-blue1.svg" alt="icone busca" width="17" height="17" ></a></li>
+                <li class="me-0" ><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal_login" ><img src="imgs/icone-usuario-blue1.svg" alt="icone login" width="24" height="24" ></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="d-block d-lg-none separador-mobile"></div>
+    <!-- fim nav mobile -->
+</header>
+<main>
+<section id="breadcrumb" >
+    <div class="container" >
+        <div class="row" >
+            <div class="col-12" >
+                <div class="breadcrumb d-flex align-items-center color-blue1 standard-font f12">
+                    <a class="color-secondary-600" href="/">Uai</a>
+                    <a href="/entretenimento/">Entretenimento</a>
+                    <a href="/entretenimento/">Cinema</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="d-flex flex-column" >
+    <section class="order-1 order-sm-0" id="sala_titulo" >
+        <div class="fundo" >
+            <div class="container pt-3-5 pb-3" >
+                <div class="row" >
+                    <div class="col-12 text-left text-sm-center" >
+                        <h2 class="standard-font tituloH2 mb-tit" >Repercussão: 'Bacurau' recebe apoio em nova chance de indicação ao Oscar</h2>
+                        <p class="standard-font f16 color-black2" >Após dois anos, longa voltou a ser elegível para concorrer ao Oscar 2021 e causou grande repercussão nas redes e na imprensa nacional e internacional</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside id="ad1" >
+    <div class="fundo fundo bg-ad bg-ad-fill" >
+        <div class="container" >
+            <div class="row justify-content-center" >
+                <div class="col-12 col-sm-10 d-flex flex-column" >
+                        <span class="standard-font color-black2 caption1" >Publicidade</span>
+                        <img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%" >
+                </div>
+            </div>
+        </div>
+    </div>
+    </aside>
+</div>
+<section id="sala_filmes" >
+    <div class="fundo" >
+        <div class="container pb-3" >
+            <div class="row mt-5" >
+                <!-- principal -->
+                <div class="col-12 col-lg-7 offset-lg-1 d-flex flex-column" >
+                    <div class="foto-noticia mt-5" >
+                        <img src="imgs/cinema_sala_placeholder.jpg" alt="imagem" height="430" width="765" >
+                        <span class="standard-font caption1 color-black1 pt-1 float-end pe-2" >foto: Victor Juca/ Divulgação</span>
+                    </div>
+                    <div class="row justify-content-start justify-content-md-between mt-3 mb-5">
+                        <div class="col-12 col-md-4 d-flex flex-column standard-font" >
+                            <span class="f18 bold color-black2" >Tamaki Ryushi</span>
+                            <span class="noticia-titulo-tempo caption1 color-black1" >02/02/2021 08:22</span>
+                        </div>
+                        <div class="col-12 col-md-8 d-flex align-items-center flex-wrap justify-content-md-end justify-content-start" >
+                            <span class="standard-font caption1 color-black1 me-2 mb-3 mb-sm-0" >compartilhe</span>
+                            <a class="me-2 mb-3 mb-sm-0" href="https://www.facebook.com/PortalUAI" target="_blank"><img src="imgs/icone-facebook.svg" width="30" height="30" alt="icone facebook" ></a>
+                            <a class="me-2 mb-3 mb-sm-0" href="https://twitter.com/portaluai" target="_blank"><img src="imgs/icone-twitter.svg" width="30" height="30" alt="icone twitter" ></a>
+                            <a class="me-2 mb-3 mb-sm-0" href="#" target="_blank"><img src="imgs/icone-whatsapp.svg" width="32" height="32" alt="icone whatsapp" ></a>
+                            <a href="#" class="d-flex align-items-center rounded-1 p-2 bg-gray6 mb-3 mb-sm-0" >
+                                <span class="caption1 color-black2 bold me-1" >SIGA NO</span>
+                                <img src="imgs/google-news.webp" alt="google-news" >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="noticia-conteudo" >
+                        <p class="standard-font f18-2" >A notícia de que o filme Bacurau (2019), dirigido por Kleber Mendonça Filho e Juliano Dornelles, voltou a ser elegível para concorrer ao Oscar 2021 tem causado grande repercussão nas redes e na imprensa nacional e internacional. Na última sexta-feira (29/1), a distribuidora independente Vitrine Filmes anunciou que o filme está registrado no catálogo do Academy Screening Room. Essa é a plataforma de acesso exclusivo aos membros da Academia, responsáveis pela seletiva do prêmio. A lista final dos filmes selecionados será divulgada em 15 de fevereiro. O filme poderá concorrer às principais categorias, exceto Melhor Filme Estrangeiro.</p>
+                    </div>
+                    <div class="noticia-leia-mais standard-font" >
+                        <h4 class="col-12 col-sm-2 titulo-leia-mais tituloH4 bold mb-4" >Leia Mais</h4>
+                        <div class="leia-mais-noticias row justify-content-center justify-content-sm-between" >
+                            <a class="col-12 col-sm-7 col-md-4 leia-mais-noticia mr-5" href="#">
+                                <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                                <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                            </a>
+                            <div class="d-block d-sm-none" ><hr></div>
+                            <a class="col-12 col-sm-7 col-md-4 leia-mais-noticia" href="#">
+                                <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                                <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                            </a>
+                            <div class="d-block d-sm-none" ><hr></div>
+                            <a class="col-12 col-sm-7 col-md-4 leia-mais-noticia" href="#">
+                                <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                                <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                            </a>
+                            <div class="d-block d-sm-none" ><hr></div>
+                        </div>
+                    </div>
+                    <div class="noticia-conteudo-continuacao mb-3" >
+                        <h3 class="mt-4-5 standard-font tituloH3 color-black2 mb-3-5" >Repercussão</h3>
+                        <p class="standard-font f18-2" >Fãs, veículos de imprensa e responsáveis pela produção de Bacurau têm usado as redes sociais para comemorar a novidade. O anúncio inicia uma nova carreira para o longa pernambucano na corrida pelo Oscar este ano, já que ficou de fora da edição de 2020. Nas redes sociais, o cineasta Kleber Mendonça Filho comemorou a visibilidade do filme. “Eu fico feliz com Bacurau sendo visto no Brasil e no mundo, não importa aonde”, escreveu. Em outra postagem, feita neste domingo (31/1), com foto da capa do jornal The New York Times, o diretor destacou o apoio da imprensa e crítica internacional.</p>
+                    </div>
+                    <aside>
+                        <div class="ad d-flex justify-content-center mb-4-5" >
+                            <img src="imgs/imagemgrande.jpeg" alt="ad" >
+                        </div>
+                    </aside>
+                    <div class="noticia-conteudo-continuacao mb-3" >
+                        <h3 class="mt-4-5 standard-font tituloH3 color-black2 mb-3-5" >Corrida pelo Oscar</h3>
+                        <p class="standard-font f18-2" >Essa é uma nova chance para o longa pernambucano, que ficou de fora da edição do ano passado da grande celebração do cinema mundial. Na ocasião, a Academia Brasileira de Cinema (ABC) indicou o filme A vida invisível, de Karim Aïnouz, como título para representar o país. Este ano, a ABC apoia a candidatura de Babenco: alguém tem que ouvir o coração e dizer: parou, de Bárbara Paz, documentário de arte sobre obra a vida do cineasta Hector Babenco. Por não estar sendo indicado por uma agência internacional, no caso a ABC, Bacurau está elegível para todas as categorias de filmes de ficção, como Melhor Filme, Direção, Atriz Coadjuvante, Ator Coadjuvante e Melhor Roteiro Original, exceto para a de Melhor Filme em Língua Estrangeira. A distribuidora americana Kino Lorber está à frente da campanha.</p>
+                        <div class="noticia-tags d-flex flex-wrap standard-font f18-2 my-4-5" >
+                            <span >Tags:&nbsp;</span>
+                            <a href="#" target="_blank">#Bacurau </a>
+                            <a href="#" target="_blank">#Cinema </a>
+                            <a href="#" target="_blank">#cinema nacional independente </a>
+                            <a href="#" target="_blank">#Oscar2021 </a>
+                            <a href="#" target="_blank">#premiação </a>
+                            <a href="#" target="_blank">#redes</a>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center mb-3-5" >
+                            <span class="standard-font caption1 color-black1 me-2" >compartilhe</span>
+                            <a class="me-2" href="https://www.facebook.com/PortalUAI" target="_blank"><img src="imgs/icone-facebook.svg" width="30" height="30" alt="icone facebook" ></a>
+                            <a class="me-2" href="https://twitter.com/portaluai" target="_blank"><img src="imgs/icone-twitter.svg" width="30" height="30" alt="icone twitter" ></a>
+                            <a class="me-2" href="#" target="_blank"><img src="imgs/icone-whatsapp.svg" width="32" height="32" alt="icone whatsapp" ></a>
+                        </div>
+                    </div>
+                    <aside>
+                        <div class="ad d-flex justify-content-center mb-5" >
+                            <img src="imgs/imagemgrande.jpeg" alt="ad" >
+                        </div>
+                    </aside>
+                    <div class="noticia-placeholder-class row justify-content-center justify-content-sm-between d-none d-sm-flex" >
+                        <a class="col-12 col-sm-7 col-md-4" href="#">
+                            <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                            <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                        </a>
+                        <a class="col-12 col-sm-7 col-md-4" href="#">
+                            <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                            <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                        </a>
+                        <a class="col-12 col-sm-7 col-md-4" href="#">
+                            <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="235" height="194">
+                            <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="noticia-placeholder-class row justify-content-center d-none d-sm-flex" >
+                        <a class="col-12 col-md-6" href="#">
+                            <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="367" height="206">
+                            <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                        </a>
+                        <a class="col-12 col-md-6" href="#">
+                            <img src="imgs/placeholder_cinema.jpg" alt="ilustracao" width="367" height="206">
+                            <p class="standard-font f16 mt-1">Edição especial do Praça Sete Instrumental Live</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- fim principal -->
+                <div class="col-12 col-lg-3 stickey noticias-categoria blue1" >
+                    <aside id="ad-pequena1">
+                        <div class="fundo fundo bg-ad bg-ad-fill">
+                            <div class="d-flex flex-column mx-1 mb-4-5">
+                                <img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%">
+                            </div>
+                        </div>
+                    </aside>
+                    <h3 class="standard-font tituloH3 color-blue1 mb-3-5" >Mais lidas</h3>
+                    <div class="mais-lidas" >
+                        <article class="mb-4-5 d-flex d-sm-block">
+                            <a href="#" class="d-flex">
+                                <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+                                <div class="d-flex flex-column" >
+                                    <h5 class="tituloH5 color-pink1">Processo</h5>
+                                    <p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="mb-4-5 d-flex d-sm-block">
+                            <a href="#" class="d-flex">
+                                <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+                                <div class="d-flex flex-column" >
+                                    <h5 class="tituloH5 color-pink1">Processo</h5>
+                                    <p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="mb-4-5 d-flex d-sm-block">
+                            <a href="#" class="d-flex">
+                                <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+                                <div class="d-flex flex-column" >
+                                    <h5 class="tituloH5 color-pink1">Processo</h5>
+                                    <p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="mb-4-5 d-flex d-sm-block">
+                            <a href="#" class="d-flex">
+                                <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+                                <div class="d-flex flex-column" >
+                                    <h5 class="tituloH5 color-pink1">Processo</h5>
+                                    <p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="mb-4-5 d-flex d-sm-block">
+                            <a href="#" class="d-flex">
+                                <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%">
+                                <div class="d-flex flex-column" >
+                                    <h5 class="tituloH5 color-pink1">Processo</h5>
+                                    <p class="mt-1 standard-font color-black2 f16 order-3">Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <aside id="ad-pequena1">
+                        <div class="fundo fundo bg-ad bg-ad-fill">
+                            <div class="d-flex flex-column mx-1 mb-4-5">
+                                <img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%">
+                            </div>
+                        </div>
+                    </aside>
+                    <aside id="instagram-side">
+                        <div class="row">
+                            <div class="col-12" >
+                                <h3 class="standard-font tituloH3 color-blue1 mb-3-5" >Instagram</h3>
+                            </div>
+                            <div class="col-6 my-3" >
+                                <a href="#" target=_blank><img src="imgs/imagem_pequena.jpeg" alt="foto" height="140" width="140"></a>
+                            </div>
+                            <div class="col-6 my-3" >
+                                <a href="#" target=_blank><img src="imgs/imagem_pequena.jpeg" alt="foto" height="140" width="140"></a>
+                            </div>
+                            <div class="col-6 my-3" >
+                                <a href="#" target=_blank><img src="imgs/imagem_pequena.jpeg" alt="foto" height="140" width="140"></a>
+                            </div>
+                            <div class="col-6 my-3" >
+                                <a href="#" target=_blank><img src="imgs/imagem_pequena.jpeg" alt="foto" height="140" width="140"></a>
+                            </div>
+                            <div class="col-12 mt-3-5 px-sm-4 px-5" >
+                                <a href="#" target=_blank class="px-0 px-sm-4 botao botao-blue1 mx-sm-auto f12 bold text-uppercase rounded-2" >Siga o Portal Uai no Instagram</a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<aside id="ad3" >
+    <div class="container mb-3-5 d-block d-sm-none" >
+        <div class="row justify-content-center" >
+            <div class="col-12 col-sm-10 d-flex flex-column mb-3-5" >
+                <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+            </div>
+            <div class="col-12 col-sm-10 d-flex flex-column mb-3-5" >
+                <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+            </div>
+            <div class="col-12 col-sm-10 d-flex flex-column" >
+                <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+            </div>
+        </div>
+    </div>
+</aside>
+<aside id="secao-modal" >
+    <div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-login" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="px-sm-5 text-center " >
+                        <h3 class="standard-font tituloH3" >Efetue o login para participar das promoções</h3>
+                        <div class="label-input mx-4" >
+                            <label class="standard-font font-label align-self-start" >e-mail</label>
+                            <input type="email" autocomplete="current-email" name="email" >
+                        </div>
+                        <div class="label-input px-4" >
+                            <label class="standard-font font-label align-self-start" >Senha</label>
+                            <input type="password" autocomplete="current-password" name="password" >
+                        </div>
+                        <div class="px-4 mb-5 pb-3" >
+                            <a href="#" class="botao bg-orange1 text-uppercase color-white1 caption1 mw-100" >Participar</a>
+                            <a href="#" class="standard-font f14 text-decoration-underline float-end color-bluelink mt-2" >Esqueceu sua senha?</a>
+                        </div>
+                        <div class="d-flex flex-column align-items-center" >
+                            <p class="standard-font f14 color-gray2 mb-0" >ou entre usando</p>
+                            <a href="#" class="botao botao-google text-uppercase caption1 mt-2" >Fazer login com Google</a>
+                        </div>
+                        <div class="px-4 d-flex mb-4 mt-4-5 ms-sm-3" >
+                            <p class="standard-font f14 color-gray2 mb-0 ms-4 me-2" >Não possui cadastro?</p><a href="#" class="standard-font f14 text-decoration-underline color-bluelink" >Cadastre-se aqui</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+</main>
+<footer>
+    <div class="fundo bg-gray2 footer1 d-none d-sm-block" >
+        <div class="container pt-5" >
+            <div class="row" >
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Estado de Minas</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/gerais/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gerais</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/politica/?utm_source=portaluai&utm_campaign=rd" target="_blank">Política</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/economia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Economia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/internacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Internacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/nacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Nacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/especiais/educacao/?utm_source=portaluai&utm_campaign=rd" target="_blank">Educação</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/tecnologia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tecnologia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://digital.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">EM Digital</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://clubea.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Clube do Assinante</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/fale-conosco/?utm_source=portaluai&utm_campaign=rd" target="_blank">Fale com o EM</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://assineja.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Assine o Estado de Minas</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.classificados.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Classificados</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.classificados.em.com.br/anunciar?utm_source=portaluai&utm_campaign=rd" target="_blank">Quero anunciar</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.uai.com.br/entretenimento/?utm_source=portaluai&utm_campaign=rd" target="_blank">Entretenimento</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/famosos/?utm_source=portaluai&utm_campaign=rd" target="_blank">Famosos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/series-e-tv/?utm_source=portaluai&utm_campaign=rd" target="_blank">Séries e TV</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/cinema/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cinema</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/musica/?utm_source=portaluai&utm_campaign=rd" target="_blank">Música</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/trends/?utm_source=portaluai&utm_campaign=rd" target="_blank">Trends</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/comportamento/?utm_source=portaluai&utm_campaign=rd" target="_blank">Comportamento</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/gastronomia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gastronomia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/tech/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tech</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/promocao/?utm_source=portaluai&utm_campaign=rd" target="_blank">Promoções</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.mg.superesportes.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Superesportes</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/america-mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">América</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/atletico-mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Atlético</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/cruzeiro/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cruzeiro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/volei/?utm_source=portaluai&utm_campaign=rd" target="_blank">Vôlei</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/basquete/?utm_source=portaluai&utm_campaign=rd" target="_blank">Basquete</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/interior/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Mineiro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/futebol-nacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Nacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/futebol-internacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Internacional</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://concursos.uai.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Concursos</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.uai.com.br/saude/?utm_source=portaluai&utm_campaign=rd" target="_blank">Saúde Plena</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://estadodeminas.vrum.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Veículos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/busca?conteudo=anuncio&veiculo=Carro&estado=MG&de=Vrum-busca1?utm_source=portaluai&utm_campaign=rd" target="_blank">Encontre um veículo</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://vender2.vrum.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Anuncie seu veículo</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/noticias/?utm_source=portaluai&utm_campaign=rd" target="_blank">Últimas notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/videos/?utm_source=portaluai&utm_campaign=rd" target="_blank">Vídeos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/programavrum" target="_blank">Vrum no Facebook</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.vrum.com.br/minharevenda?utm_source=portaluai&utm_campaign=rd" target="_blank">Cadastre sua Revenda</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.revistaencontro.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Revista Encontro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/revista/?utm_source=portaluai&utm_campaign=rd" target="_blank">Notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/cultura/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cultura</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/gastro/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gastrô</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://estadodeminas.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Imóveis</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/busca/mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Encontre um imóvel</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://anuncie2.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Anuncie seu imóvel</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/busca/lancamento/mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Lancamentos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/noticias/noticias/?utm_source=portaluai&utm_campaign=rd" target="_blank">Últimas notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/lugarcertoda" target="_blank">Lucar Certo no Facebook</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/imobiliarias/?cadastro?utm_source=portaluai&utm_campaign=rd" target="_blank">Cadastre sua Imobiliária</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://uaiagro.com.br/" target="_blank">Agro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/pecuaria/" target="_blank">Pecuária</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/agricultura/" target="_blank">Agricultura</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/cotacoes/" target="_blank">Cotações</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.alterosa.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tv Alterosa</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/alterosa-alerta/?utm_source=portaluai&utm_campaign=rd" target="_blank">Alterosa Alerta</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/jornal-da-alterosa/?utm_source=portaluai&utm_campaign=rd" target="_blank">Jornal da Alterosa</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/tv-verdade/?utm_source=portaluai&utm_campaign=rd" target="_blank">TV Verdade</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/alterosa-esporte/?utm_source=portaluai&utm_campaign=rd" target="_blank">Alterosa Esporte</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/bola-na-area/?utm_source=portaluai&utm_campaign=rd" target="_blank">Bola na Área</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/mma-alterosa/?utm_source=portaluai&utm_campaign=rd" target="_blank">MMA Alterosa</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="javascript:void(0);" target="_blank">Outros</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">Correio Braziliense</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">CorreioWeb</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fundo bg-blue1 footer2" >
+        <div class="container" >
+            <div class="d-flex justify-content-between pt-2 pt-sm-3-5" >
+                <div class="d-none d-sm-flex flex-wrap" >
+                    <a class="standard-font f14-3 bold color-white1 me-5" href="javascript:void(0);" target="_blank">Termos e condições</a>
+                    <a class="standard-font f14-3 bold color-white1 me-5" href="https://www.em.com.br/politica-de-privacidade/" target="_blank">Política de privacidade</a>
+                    <a class="standard-font f14-3 bold color-white1" href="https://www.em.com.br/fale-conosco" target="_blank">Entre em contato</a>
+                </div>
+                <a class="d-block standard-font f14-3 bold color-white1 text-center" href="#" target="_blank">© 2021 Diários Associados - Todos os direitos reservados</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/bootstrap-5.0.2.min.js" defer></script>
+<script type="text/javascript" src="js/swiper-bundle.min.js" defer></script>
+<script type="text/javascript" src="js/e+.js" defer></script>
+</body>
+</html>

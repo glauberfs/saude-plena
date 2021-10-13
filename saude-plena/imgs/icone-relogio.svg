@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Atoms / icons / System / Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,4 C16.4113004,4 20,7.58872817 20,12 C20,16.4112718 16.4113004,20 12,20 C7.58872817,20 4,16.4113004 4,12 C4,7.58872817 7.58872817,4 12,4 Z M12,18.2513661 C15.4470945,18.2513661 18.2513661,15.4470945 18.2513661,12 C18.2513661,8.5530769 15.4470945,5.74863388 12,5.74863388 C8.55290546,5.74863388 5.74863388,8.5530769 5.74863388,12 C5.74863388,15.4470945 8.55290546,18.2513661 12,18.2513661 Z M12.6924819,12.0096003 L15.0181364,14.3351691 C15.2828887,14.59975 15.2827172,15.028851 15.0181364,15.2936033 C14.7535841,15.5583557 14.324483,15.5583557 14.0597307,15.2936033 L11.5355548,12.7696275 C11.394807,12.628851 11.331319,12.4417301 11.3402336,12.2574378 C11.3397193,12.2467802 11.3370906,12.2367799 11.3370906,12.2261224 L11.3370906,8.65662345 C11.3370906,8.28223865 11.6405014,7.97885639 12.0148577,7.97885639 C12.3890996,7.97885639 12.6924819,8.28223865 12.6924819,8.65662345 L12.6924819,12.0096003 Z" id="path-1"></path>
+    </defs>
+    <g id="Reprovados" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="E+-Notícia-Mobile" transform="translate(-156.000000, -295.000000)">
+            <g id="Titulo" transform="translate(10.000000, 136.000000)">
+                <g id="Meta" transform="translate(36.000000, 155.000000)">
+                    <g id="Autor">
+                        <g id="Atoms-/-icons-/-System-/-Clock" transform="translate(106.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Atoms-/-Colors-/-Gray-#2" mask="url(#mask-2)" fill="#C2D1D9" fill-rule="evenodd">
+                                <rect id="Atoms-/-Colors-/-Black" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

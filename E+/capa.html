@@ -1,0 +1,814 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <title>E +</title>
+
+  <meta name="google-site-verification" content="2nC-r8pPsNlc9YR0UJyIsL7JFvEAPyQsw1Kh7MdIdpc" />
+
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="E+">
+    <meta name="author" content="E+">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="E+" />
+    <meta name="twitter:title" content="E+" />
+    <meta name="twitter:image" content="" />
+    <meta property="og:locale" content="pt-br" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="E+" />
+    <meta property="og:description" content="E+" />
+    <meta property="og:site_name" content="E+" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="imgs/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Tipografia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap-5.0.2.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/e+.css">
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+<header>
+    <!-- navs desktop -->
+    <nav class="d-none d-lg-block" >
+        <ul class="uai-bar-top-new d-flex justify-content-center align-items-center standard-font f14-PtSans color-gray0 bold">
+            <li><a href="https://www.em.com.br/" target="_blank" >Notícias</a></li>        
+            <li><a href="https://www.mg.superesportes.com.br/" target="_blank" >Esporte</a></li>
+            <li><a href="https://www.uai.com.br/entretenimento/" target="_blank" >Entretenimento</a></li>
+            <li>
+            <a class="standard-font f14-PtSans bold" href="https://estadodeminas.vrum.com.br/" target="_blank">Veículos</a>
+            </li>
+            <li><a class="logo" href="https://www.uai.com.br/" target="_blank"><img src="imgs/logo-uai-mobile.svg" alt="UAI" width="50" height="34" ></a>
+            </li>
+            <li><a href="https://estadodeminas.lugarcerto.com.br/" target="_blank">Imóveis</a></li>
+            <li><a href="https://www.uai.com.br/saude/" target="_blank">Saúde Plena</a></li>
+            <li><a href="https://www.alterosa.com.br/" target="_blank">TV Alterosa</a></li>
+            <li><a href="https://parceiros.uai.com.br/" target="_blank">Parceiros</a></li>
+        </ul>
+    </nav>
+    <div class="wrap-fixed d-none d-lg-block" >
+        <div class="fixed-one" >
+            <nav class="container d-flex justify-content-between uai-bar-middle align-items-center" >
+                <ul class="bar-redes-sociais d-flex" >
+                    <li><a href="https://www.facebook.com/PortalUAI" target="_blank"><img src="imgs/icone-facebook.svg" width="30" height="30" alt="icone facebook" ></a></li>
+                    <li><a href="https://twitter.com/portaluai" target="_blank"><img src="imgs/icone-twitter.svg" width="30" height="30" alt="icone twitter" ></a></li>
+                    <li><a href="https://www.instagram.com/portaluai/" target="_blank"><img src="imgs/icone-instagram.svg" width="30" height="30" alt="icone instagram" ></a></li>
+                    <li><a href="https://www.youtube.com/user/PortalUai" target="_blank"><img src="imgs/icone-youtube.svg" width="30" height="30" alt="icone youtube" ></a></li>
+                </ul>
+                <a class="bg-blue3 me-128" ><img src="imgs/logo-e+.svg" height="60" width="80" alt="logo" ></a>
+                <ul class="bar-login-busca d-flex mt-2" >
+                    <li class="busca-topo-input d-none mx-0 align-self-center" ><input class="float-end" type="text" ></li>
+                    <li class="me-2" ><a href="javascript:void(0);" class="busca-topo-botao" ><img src="imgs/icone-busca.svg" width="17" height="17" alt="busca" ></a></li>
+                    <li><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal_login" ><img src="imgs/icone-usuario.svg" width="24" height="24" alt="login" ></a></li>
+                </ul>
+            </nav>
+            <nav class="d-none d-lg-flex justify-content-center uai-bar-bottom align-items-center" >
+                <ul class="uai-menu-principal d-flex justify-content-center align-items-center color-orange1">
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/famosos/" target="_blank">Famosos</a></li>        
+                    <li class="tem-submenu" >
+                        <a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/series-e-tv/" target="_blank">Séries e TV</a>
+                        <div class="espacamento-menu" >
+                            <ul class="submenu-personalizado" >
+                                <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/realities/" target="_blank">realities</a></li>
+                                <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/programacao/" target="_blank">programação</a></li>   
+                            </ul>
+                        </div>
+                        <div class="seta-menu"></div>
+                    </li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/cinema/" target="_blank">Cinema</a></li>
+                    <li class="tem-submenu">
+                        <a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/musica/" target="_blank">Música</a>
+                        <div class="espacamento-menu" >
+                            <ul class="submenu-personalizado" >    
+                                <li><a class="standard-font f12 bold"  href="#" target="_blank">sertaneja</a></li>   
+                            </ul>
+                        </div>
+                        <div class="seta-menu" ></div>
+                    </li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/trends/" target="_blank">Trends</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/comportamento/" target="_blank">Comportamento</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/gastronomia/" target="_blank">Gastronomia</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/tech/" target="_blank">Tech</a></li>
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/promocao/" target="_blank">Promoções</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- fim navs desktop -->
+    <!-- nav mobile -->
+    <nav class="d-block d-lg-none mobile-nav-screen-wrapper" >
+        <ul class="side-nav menu-personalizado-mobile color-orange1" >
+            <li class="close-btn-parent" ><a href="javascript:void(0)" class="close-btn">&times;</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/famosos/" target="_blank" >Famosos</a></li>        
+            <li class="tem-submenu-mobile" >
+                <a class="standard-font f12 bold" href="javascript:void(0);">Séries e TV</a>
+                <ul class="submenu-personalizado-mobile" > 
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/">Séries e TV</a></li> 
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/realities/" target="_blank" >realities</a></li>
+                    <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/series-e-tv/programacao/" target="_blank">programação</a></li>   
+                </ul>
+            </li>
+            <li><a class="standard-font f12 bold" href="https://www.uai.com.br/entretenimento/cinema/" target="_blank">Cinema</a></li>
+            <li class="tem-submenu-mobile">
+                <a class="standard-font f12 bold" href="javascript:void(0);">Música</a>
+                <ul class="submenu-personalizado-mobile" >
+                    <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/musica/" target="_blank">Música</a></li>   
+                    <li><a class="standard-font f12 bold"  href="#" target="_blank">sertaneja</a></li>
+                </ul>
+            </li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/trends/" target="_blank">Trends</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/comportamento/" target="_blank">Comportamento</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/gastronomia/" target="_blank">Gastronomia</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/entretenimento/tech/" target="_blank">Tech</a></li>
+            <li><a class="standard-font f12 bold"  href="https://www.uai.com.br/promocao/" target="_blank">Promoções</a></li>
+        </ul>
+    </nav>
+    <nav class="d-block d-lg-none mobile-nav-wrapper mw-100" >
+        <div class="d-flex justify-content-between" >
+            <span class="nav-sandwich mt-2">&#9776;</span>
+            <a class="bg-blue3 ms-5" ><img src="imgs/logo-e+.svg" height="48" width="64" alt="logo" ></a>
+            <ul class="bar-login-busca d-flex mt-3" >
+                <li class="busca-topo-input d-none mx-0 align-self-center" ><input class="float-end" type="text" ></li>
+                <li class="me-2" ><a href="javascript:void(0);" class="busca-topo-botao" ><img src="imgs/icone-busca.svg" width="17" height="17" alt="busca" ></a></li>
+                <li class="me-0" ><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modal_login" ><img src="imgs/icone-usuario.svg" width="24" height="24" alt="login" ></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="d-block d-lg-none separador-mobile"></div>
+    <!-- fim nav mobile -->
+</header>
+<main>
+<aside id="ad1" >
+  <div class="fundo fundo bg-ad bg-ad-fill" >
+      <div class="container" >
+          <div class="row justify-content-center" >
+              <div class="col-12 col-sm-10 d-flex flex-column" >
+                    <span class="standard-font color-black2 caption1" >Publicidade</span>
+                    <img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%" >
+              </div>
+          </div>
+      </div>
+  </div>
+</aside>
+<section id="noticias" >
+    <div class="fundo" >
+        <div class="container" >
+            <div class="row mt-5" >
+                <!-- principal -->
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-between" >
+                    <article class="noticia-chamada" >
+                        <a href="#" >
+                            <img src="imgs/imagemgrande.jpeg" alt="ilustracao" height="366" width="100%" >
+                            <h5 class="tituloH5 mt-4 mb-1 color-blue1" >Lucasfilm</h5>
+                            <p class="col-12 col-sm-10 standard-font color-black2 f21 bold" >Novo game de ‘Indiana Jones’ será lançado com história original, anuncia Lucasfilm</p>
+                        </a>
+                    </article>
+                    <hr class="mt-0" >
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6" >
+                    <div class="row">
+                        <div class="col-12 col-md-6" >
+                            <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                              <a href="#" class="d-flex d-sm-block" >
+                                  <h5 class="tituloH5 color-green1 order-1 order-sm-0 ms-3 ms-sm-0" >Música</h5>
+                                  <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                                  <p class="mt-1 standard-font color-black2 f16 order-3" >Flaming Lips: a inusitada estratégia de uma banda de rock para fazer shows com segurança na pandemia</p>
+                              </a>
+                          </article>
+                        </div>
+                        <div class="col-12 col-md-6" >
+                            <aside id="ad-pequena1" >
+                                <div class="fundo fundo bg-ad bg-ad-fill" >
+                                    <div class="d-flex flex-column mx-1 mb-4-5" >
+                                        <img src="imgs/imagem_pequena.jpeg" alt="ad" height="250" width="100%" >
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-12 col-md-6" >
+                            <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                              <a href="#" class="d-flex d-sm-block" >
+                                  <h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0" >BBB21</h5>
+                                  <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                                  <p class="mt-1 standard-font color-black2 f16 order-3" >BBB21: Vixe! Gilberto se irrita com pergunta de Kerline em prova: ‘Não gostei! Ficou feio pra mim’</p>
+                              </a>
+                          </article>
+                        </div>
+                        <div class="col-12 col-md-6" >
+                            <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                              <a href="#" class="d-flex d-sm-block" >
+                                  <h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0" >BBB21</h5>
+                                  <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                                  <p class="mt-1 standard-font color-black2 f16 order-3" >Bianca Andrade diz que se não 'enfrentasse o BBB' não estaria com seu 'BB'</p>
+                              </a>
+                          </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- fim principal -->
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0" >BBB21</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >Estreia do BBB 21 agita torcedores e rende memes com futebol; veja os melhores da rede</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="mb-4-5 d-flex d-sm-block" >
+                        <a href="#">
+                            <h5 class="tituloH5 color-blue1" >Conteúdo promovido por Taboola</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3 bold mb-0" >A Mega-Sena está acumulada e você pode apostar sem sair de casa!</p>
+                            <span class="standard-font f12 bold color-gray4" >Loterias Brasil</span>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0" >luto</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >Gusttavo Lima lamenta morte de personal trainer: 'Vai fazer muita falta'</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <aside id="ad-pequena1" >
+                        <div class="fundo fundo bg-ad bg-ad-fill" >
+                            <div class="d-flex flex-column mx-1 mb-4-5" >
+                                <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0" >Processo</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >Após processo, Danilo Gentili faz 'pedido de desculpas' a Marcius Melhem</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-blue2 order-1 order-sm-0 ms-3 ms-sm-0" >BBB21</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >Larissa Manoela ao ser comparada com Thaís: 'Até eu buguei'</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-pink1 order-1 order-sm-0 ms-3 ms-sm-0" >Dieta</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >Novo game de ‘Indiana Jones’ será lançado com história original, anuncia Lucasfilm</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" >
+                    <article class="noticia-pequena mb-4-5 d-flex d-sm-block" >
+                        <a href="#" class="d-flex d-sm-block" >
+                            <h5 class="tituloH5 color-blue1 order-1 order-sm-0 ms-3 ms-sm-0" >Premiação</h5>
+                            <img class="order-0 order-sm-1" src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" >
+                            <p class="mt-1 standard-font color-black2 f16 order-3" >'Bacurau' está entre os indicados a melhor filme internacional do Independent Spirit Awards 2021</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<aside id="ad2" >
+  <div class="fundo fundo bg-ad bg-ad-fill" >
+      <div class="container" >
+          <div class="row justify-content-center" >
+              <div class="col-12 col-sm-10 d-flex flex-column d-none d-sm-block" >
+                  <span class="standard-font color-black2 caption1" >Publicidade</span>
+                  <img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%" >
+              </div>
+              <div class="col-12 col-sm-10 d-flex flex-column d-block d-sm-none" >
+                  <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+              </div>
+          </div>
+      </div>
+  </div>
+</aside>
+<section id="agenda-cultural" >
+    <div class="fundo bg-cinza1" >
+        <div class="container py-4-5" >
+            <div class="row" >
+                <div class="col-12 col-md-9 col-xl-4 pr-md-0" >
+                    <div class="d-flex align-items-center" >
+                        <h2 class="standard-font tituloH2 color-red1 me-3 mt-2" >Agenda Cultural</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="42" fill="#e32417">
+                            <path fill="#e32417" d="M32.43 25.77c-.13-.87-.38-1.7-.74-2.45-.46-1.02-1.1-1.92-1.9-2.67-.77-.73-1.67-1.36-2.65-1.89-.97-.52-2.01-.97-3.11-1.34l-3.21-.96-3.13-.72-2.7-.62c-.8-.21-1.47-.43-2.01-.68-.45-.21-.77-.44-.91-.66-.13-.21-.19-.47-.19-.8 0-.44.1-.79.29-1.03.22-.27.49-.48.83-.62.37-.16.78-.26 1.23-.3l1.4-.07c1.87 0 3.64.27 5.25.8 1.65.54 3.37 1.25 5.14 2.1l.51.25.28-.49 2.2-3.82 2.24-3.83.3-.51-.51-.31c-2.14-1.33-4.43-2.3-6.8-2.89-3.79-.94-7.73-1.13-11.63-.55a17.99 17.99 0 0 0-4.28 1.13 13.42 13.42 0 0 0-3.76 2.28c-1.14.98-2.08 2.23-2.79 3.73-.36.75-.63 1.55-.81 2.38S.7 12.89.7 13.7c0 2.33.43 4.23 1.26 5.67.84 1.43 1.97 2.58 3.38 3.43a12.98 12.98 0 0 0 2.21 1.09 31.43 31.43 0 0 0 2.43.83 30.59 30.59 0 0 0 2.55.66c.85.18 1.73.38 2.63.6.69.16 1.38.3 2.06.42.64.12 1.27.29 1.91.53a5.79 5.79 0 0 1 .8.34c.28.14.55.3.8.48a2.39 2.39 0 0 1 .55.55c.11.16.17.34.17.55 0 .56-.12.98-.34 1.25-.26.31-.58.53-.97.68-.44.16-.94.27-1.48.31a19.11 19.11 0 0 1-1.64.07c-1.82 0-3.57-.22-5.19-.65-1.63-.43-3.28-1.07-4.87-1.86-.4-.23-.82-.43-1.25-.6l-.5-.19-.26.47c-.18.33-.5.88-.96 1.65L2.5 32.44l-.74 1.27-.65 1.11-.46.81c-.2.35-.27.49-.27.67 0 .4.33.63.66.84l.05.03c.25.12.42.19.55.23 2.16 1.01 4.46 1.81 6.83 2.38a31.07 31.07 0 0 0 7.3.87c1.97 0 3.97-.18 5.94-.54 2-.36 3.83-1.01 5.42-1.92 1.62-.92 2.96-2.2 3.97-3.79 1.02-1.6 1.53-3.66 1.53-6.11-.01-.83-.07-1.67-.2-2.52"></path>
+                            <path fill="#e32417" d="M49.13 23.9c0 1-.19 1.97-.56 2.9s-.88 1.75-1.52 2.44a7.41 7.41 0 0 1-2.3 1.66 6.77 6.77 0 0 1-2.88.62c-1.04 0-2.01-.21-2.89-.62-.89-.41-1.66-.97-2.3-1.66s-1.15-1.51-1.52-2.44-.56-1.9-.56-2.9c0-1.02.19-2.01.55-2.92a7.82 7.82 0 0 1 1.52-2.42c.64-.68 1.41-1.24 2.3-1.66.88-.41 1.85-.62 2.89-.62s2.01.21 2.88.62c.89.41 1.66.97 2.3 1.66a7.82 7.82 0 0 1 1.52 2.42c.38.92.57 1.9.57 2.92m8.18-6.5c-.88-2.02-2.08-3.8-3.59-5.29a17.2 17.2 0 0 0-5.33-3.57c-2.04-.88-4.23-1.32-6.52-1.32-2.32 0-4.52.44-6.54 1.32-2.02.87-3.8 2.07-5.31 3.57a16.85 16.85 0 0 0-3.59 5.29c-.88 2.02-1.32 4.21-1.32 6.5s.44 4.48 1.32 6.5c.87 2.02 2.08 3.8 3.59 5.29s3.3 2.69 5.31 3.55c2.02.86 4.22 1.3 6.54 1.3 2.29 0 4.48-.44 6.52-1.3 2.03-.86 3.82-2.06 5.33-3.55s2.72-3.28 3.59-5.29c.88-2.03 1.32-4.21 1.32-6.5s-.44-4.48-1.32-6.5"></path>
+                            <path fill="#e32417" d="M80.12 39.86H66.05c-.2 0-.46 0-.68-.01h-.5a11.95 11.95 0 0 1-11.02-11.6v-.31-14.61l7.86-.01h.55v16.07a3.55 3.55 0 0 0 3.54 3.52c1.95 0 3.53-1.57 3.54-3.52V13.32h8.38l.02 11.2v3.53.61 8.74l2.38 2.46zm9.14-17.53c.37-.22.55-.57.55-1.06 0-.5-.19-.85-.57-1.06-.38-.2-.94-.3-1.68-.3l-.77.01-.73.05v2.7h1.36c.86 0 1.47-.11 1.84-.34m.4 2.83c-.43-.24-1.04-.37-1.84-.37h-1.75v3.2l.66.05.79.02c.84 0 1.51-.12 2.02-.36s.77-.68.77-1.32c-.01-.57-.22-.98-.65-1.22"></path>
+                            <path fill="#e32417" d="M104.3 30.19h-2.79v-5.26h-4.69v5.26h-2.79V17.8h2.79v4.74h4.69V17.8h2.79v12.39zm-12.59-.82c-.95.66-2.36.98-4.23.98a34.14 34.14 0 0 1-2.03-.06 13.44 13.44 0 0 1-2.1-.3V17.98a16.29 16.29 0 0 1 1.88-.24l1.9-.08a13.18 13.18 0 0 1 2.17.17c.66.11 1.23.31 1.71.58a2.98 2.98 0 0 1 1.12 1.08c.27.45.4 1 .4 1.65 0 .99-.48 1.77-1.43 2.34.79.3 1.32.7 1.61 1.22.29.51.43 1.09.43 1.73-.01 1.31-.48 2.29-1.43 2.94M77.21 10.3l2.3 2.38v25.04h28.12V10.3H77.21z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2" >
+                    <ul class="select-display ps-md-4 ps-xl-0 f14 bold color-gray4">
+                        <li class="select-head" >
+                            <div>Agosto</div><span class="select-arrow-down" ></span>
+                        </li>
+                        <div class="select-personalizado thin-scrollable-new color-black3 f14-3" target="mes">
+                            <!--<div>Todos</div>-->
+                            <li id="m1" >Setembro</li>
+                            <li id="m2" >Outubro</li>
+                        </div>
+                        <span class="select-personalizado-outer-arrow"></span>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-9 col-xl-4 position-relative mt-3 mt-xl-0" >
+                    <div class="swiper-container gallery-days ml-4-5 me-auto">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo active" >
+                                    <span class="standard-font f16 bold" >qui</span>
+                                    <span class="standard-font f16 bold" >8</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >sex</span>
+                                    <span class="standard-font f16 bold" >9</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >sáb</span>
+                                    <span class="standard-font f16 bold" >10</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >dom</span>
+                                    <span class="standard-font f16 bold" >11</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >seg</span>
+                                    <span class="standard-font f16 bold" >12</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >ter</span>
+                                    <span class="standard-font f16 bold" >13</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-sem-circulo" >
+                                    <span class="standard-font f16 bold" >qui</span>
+                                    <span class="standard-font f16 bold" >14</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="days-next-prev-container" >
+                        <div class="swiper-button-next swipper-button-next-days"></div>
+                        <div class="swiper-button-prev swipper-button-prev-days"></div>
+                    </div>
+                </div>
+                <div class="col-12 offsex col-md-3 col-xl-2" >
+                    <div class="ms-md-4 mt-3 mt-xl-0" >
+                        <ul class="select-display f14-2 bold color-gray4">
+                            <li class="select-head" >
+                                <div>Escolha</div><span class="select-arrow-down" ></span>
+                            </li>
+                            <div class="select-personalizado thin-scrollable-new color-black3 f14-3" target="cinema">
+                                <!--<div>Todos</div>-->
+                                <li id="es1" >Arte</li>
+                                <li id="es2" >Eventos</li>
+                                <li id="es3" >Shows</li>
+                                <li id="es4" >Festas</li>
+                                <li id="es5" >Teatro</li>
+                                <li id="es6" >Gastronomia</li>
+                            </div>
+                            <span class="select-personalizado-outer-arrow"></span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-12 mt-4-5">
+                    <div class="swiper-container gallery-categories">
+                        <div class="swiper-wrapper mb-5">
+                            <div class="swiper-slide">
+                                <a class="noticia-slider" href="#" >
+                                    <h5 class="standard-font tituloH5 color-red1 mb-1" >Chapéu</h5>
+                                    <img src="imgs/placeholder_cinema.jpg" alt="ilustracao"  width=309 height=174 >
+                                    <p class="standard-font f16 bold" >Brasil Restaurant Week 2020</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="noticia-slider" href="#" >
+                                    <h5 class="standard-font tituloH5 color-red1 mb-1" >cinema</h5>
+                                    <img src="imgs/placeholder_cinema.jpg" alt="ilustracao"  width=309 height=174 >
+                                    <p class="standard-font f16 bold" >Mostra Latino-Americana de Curtas</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="noticia-slider" href="#" >
+                                    <h5 class="standard-font tituloH5 color-red1 mb-1" >Exposição</h5>
+                                    <img src="imgs/placeholder_cinema.jpg" alt="ilustracao"  width=309 height=174 >
+                                    <p class="standard-font f16 bold" >Amilcar de Castro - Matéria e Luz</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="noticia-slider" href="#" >
+                                    <h5 class="standard-font tituloH5 color-red1 mb-1" >Exposição</h5>
+                                    <img src="imgs/placeholder_cinema.jpg" alt="ilustracao"  width=309 height=174 >
+                                    <p class="standard-font f16 bold" >6ª Edição do Presépio Colaborativo da Casa Fiat de Cultura</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="noticia-slider" href="#" >
+                                    <h5 class="standard-font tituloH5 color-red1 mb-1" >Show</h5>
+                                    <img src="imgs/placeholder_cinema.jpg" alt="ilustracao"  width=309 height=174 >
+                                    <p class="standard-font f16 bold" >Edição especial do Praça Sete Instrumental Live</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination custom-pagination pagination-red" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="promocao-cinema" >
+    <div class="fundo" >
+        <div class="container py-4-5" >
+            <div class="row" >
+                <div class="col-12 col-lg-4" >
+                    <div class="d-flex justify-content-between align-items-baseline mb-3-5" >
+                        <h2 class="standard-font tituloH2 color-orange1" >Promoções</h2>
+                        <h5 class="standard-font tituloH5 color-black2 me-lg-2" >Ver todas as promoções</h5>
+                    </div>
+                    <article class="mb-4-5" >
+                        <a href="#" >
+                            <img src="imgs/imagemgrande.jpeg" alt="ilustracao" width="100%" height="300" >
+                            <p class="mt-1 standard-font color-black2 f18 bold" >Par de cortesias para o filme "Mulher Maravilha 1984"</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-8" >
+                    <div class="row align-items-center" >
+                        <div class="col-12 col-lg-3" >
+                            <h2 class="standard-font tituloH2 color-orange1 me-5" >Cinema</h2>
+                        </div>
+                        <div class="col-6 col-lg-3" >
+                            <ul class="select-display ps-md-4 ps-xl-0 f14-2 bold color-gray4">
+                                <li class="select-head " >
+                                    <div>Sala</div><span class="select-arrow-down" ></span>
+                                </li>
+                                <div class="select-personalizado thin-scrollable-new color-black3 f14-3" target="sala">
+                                    <!--<div>Todos</div>-->
+                                    <li id="m1" >Sala 1</li>
+                                    <li id="m2" >Sala 2</li>
+                                </div>
+                                <span class="select-personalizado-outer-arrow"></span>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3" >
+                            <ul class="select-display ps-md-4 ps-xl-0 f14-2 bold color-gray4">
+                                <li class="select-head" >
+                                    <div>Filme</div><span class="select-arrow-down" ></span>
+                                </li>
+                                <div class="select-personalizado thin-scrollable-new color-black3 f14-3" target="filme">
+                                    <!--<div>Todos</div>-->
+                                    <li id="m1" >Trolls 2</li>
+                                    <li id="m2" >Mulher Maravilha 1984</li>
+                                </div>
+                                <span class="select-personalizado-outer-arrow"></span>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3 mt-4 mt-lg-0" >
+                            <a href="javascript:void(0);" class="botao bg-blue1 bold" >Pesquisar</a>
+                        </div>
+                        <div class="col-12" >
+                            <div class="swiper-container gallery-movies">
+                                <div class="swiper-wrapper mb-5 mt-3">
+                                    <div class="swiper-slide">
+                                        <a class="filme-slider" href="#" >
+                                            <img src="imgs/placeholder_cinema_vertical.jpg" alt="ilustracao"  width=196 height=300 >
+                                            <p class="standard-font f18 bold" >Convenção das Bruxas</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="filme-slider" href="#" >
+                                            <img src="imgs/placeholder_cinema_vertical.jpg" alt="ilustracao"  width=196 height=300 >
+                                            <p class="standard-font f18 bold" >Trolls 2</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="filme-slider" href="#" >
+                                            <img src="imgs/placeholder_cinema_vertical.jpg" alt="ilustracao"  width=196 height=300 >
+                                            <p class="standard-font f18 bold" >Mulher Maravilha 1984</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="filme-slider" href="#" >
+                                            <img src="imgs/placeholder_cinema_vertical.jpg" alt="ilustracao"  width=196 height=300 >
+                                            <p class="standard-font f18 bold" >Destruição Final - O Último Refúgio</p>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="filme-slider" href="#" >
+                                            <img src="imgs/placeholder_cinema_vertical.jpg" alt="ilustracao"  width=196 height=300 >
+                                            <p class="standard-font f18 bold" >Mulher Maravilha 1984</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination custom-pagination pagination-orange" ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<aside id="ad3" >
+  <div class="fundo fundo bg-ad bg-ad-fill" >
+      <div class="container" >
+          <div class="row justify-content-center" >
+              <div class="col-12 col-sm-10 d-flex flex-column d-none d-sm-block" >
+                  <span class="standard-font color-black2 caption1" >Publicidade</span>
+                  <img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%" >
+              </div>
+              <div class="col-12 col-sm-10 d-flex flex-column d-block d-sm-none" >
+                  <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+              </div>
+          </div>
+      </div>
+  </div>
+</aside>
+<section id="maislidas-parceiros" >
+    <div class="fundo" >
+        <div class="container py-4-5" >
+            <div class="row" >
+                <div class="col-12 col-lg-4" >
+                    <div class="fundo fundo bg-ad bg-ad-fill" >
+                        <div class="container-fluid mb-3" >
+                            <div class="row justify-content-center" >
+                                <div class="col-12 col-sm-10 d-flex flex-column d-none d-sm-block" >
+                                    <span class="standard-font color-black2 caption1" >Publicidade</span>
+                                    <img src="imgs/ad_vertical.png" alt="ad" height="600" width="100%" >
+                                </div>
+                                <!-- AD no mobile vertical se houver
+                                <div class="col-12 col-sm-10 d-flex flex-column d-block d-sm-none" >
+                                    <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8" >
+                    <div class="row" >
+                        <div class="col-12 col-lg-6" >
+                            <article>
+                                <a href="#" >
+                                    <div class="article-head" >
+                                        <h2 class="standard-font tituloH2 color-orange1 mb-4-5" >Mais lidas</h2>
+                                        <img src="imgs/imagemgrande.jpeg" alt="ad" height="238" width="100%" >
+                                    </div>
+                                    <div class="article-body bg-gray1 pt-3-5 pb-1 pl-3-5">
+                                        <h5 class="tituloH5 color-green1">Música</h5>
+                                        <p class="standard-font f18 bold me-lg-5" >Flaming Lips: a inusitada estratégia de uma banda de rock para fazer shows com segurança na pandemia</p>
+                                    </div>
+                                </a>
+                                <div class="article-footer" >
+                                    <ul class="d-flex flex-column lista-noticias" >
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-lg-6" >
+                            <article>
+                                <a href="#" >
+                                    <div class="article-head" >
+                                        <h2 class="standard-font tituloH2 color-orange1 mb-4-5" >Parceiros Uai</h2>
+                                        <img src="imgs/imagemgrande.jpeg" alt="ad" height="238" width="100%" >
+                                    </div>
+                                    <div class="article-body bg-gray1 pt-3-5 pb-1 pl-3-5" >
+                                        <h5 class="tituloH5 color-pink1">La Noticia</h5>
+                                        <p class="standard-font f18 bold me-lg-5" >Flaming Lips: a inusitada estratégia de uma banda de rock para fazer shows com segurança na pandemia</p>
+                                    </div>
+                                </a>
+                                <div class="article-footer" >
+                                    <ul class="d-flex flex-column lista-noticias" >
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                        <li><a class="standard-font f15 color-black2" href="#" target="_blank" >Fiuk revela bullying: 'Fui internado três vezes, acabavam comigo'</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<aside id="ad4" >
+  <div class="fundo fundo bg-ad bg-ad-fill mb-4-5" >
+      <div class="container" >
+          <div class="row justify-content-center" >
+              <div class="col-12 col-sm-10 d-flex flex-column d-none d-sm-block" >
+                  <span class="standard-font color-black2 caption1" >Publicidade</span>
+                  <img src="imgs/ad_horizontal.png" alt="ad" height="250" width="100%" >
+              </div>
+              <div class="col-12 col-sm-10 d-flex flex-column d-block d-sm-none" >
+                  <img src="imgs/imagem_pequena.jpeg" alt="ad"  height="250" width="100%" >
+              </div>
+          </div>
+      </div>
+  </div>
+</aside>
+<aside id="secao-modal" >
+    <div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-login" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="px-sm-5 text-center " >
+                        <h3 class="standard-font tituloH3" >Efetue o login para participar das promoções</h3>
+                        <div class="label-input mx-4" >
+                            <label class="standard-font font-label align-self-start" >e-mail</label>
+                            <input type="email" autocomplete="current-email" name="email" >
+                        </div>
+                        <div class="label-input px-4" >
+                            <label class="standard-font font-label align-self-start" >Senha</label>
+                            <input type="password" autocomplete="current-password" name="password" >
+                        </div>
+                        <div class="px-4 mb-5 pb-3" >
+                            <a href="#" class="botao bg-orange1 text-uppercase color-white1 caption1 mw-100" >Participar</a>
+                            <a href="#" class="standard-font f14 text-decoration-underline float-end color-bluelink mt-2" >Esqueceu sua senha?</a>
+                        </div>
+                        <div class="d-flex flex-column align-items-center" >
+                            <p class="standard-font f14 color-gray2 mb-0" >ou entre usando</p>
+                            <a href="#" class="botao botao-google text-uppercase caption1 mt-2" >Fazer login com Google</a>
+                        </div>
+                        <div class="px-4 d-flex mb-4 mt-4-5 ms-sm-3" >
+                            <p class="standard-font f14 color-gray2 mb-0 ms-4 me-2" >Não possui cadastro?</p><a href="#" class="standard-font f14 text-decoration-underline color-bluelink" >Cadastre-se aqui</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+</main>
+<footer>
+    <div class="fundo bg-gray2 footer1 d-none d-sm-block" >
+        <div class="container pt-5" >
+            <div class="row" >
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Estado de Minas</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/gerais/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gerais</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/politica/?utm_source=portaluai&utm_campaign=rd" target="_blank">Política</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/economia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Economia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/internacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Internacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/nacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Nacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/especiais/educacao/?utm_source=portaluai&utm_campaign=rd" target="_blank">Educação</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/tecnologia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tecnologia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://digital.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">EM Digital</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://clubea.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Clube do Assinante</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.em.com.br/fale-conosco/?utm_source=portaluai&utm_campaign=rd" target="_blank">Fale com o EM</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://assineja.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Assine o Estado de Minas</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.classificados.em.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Classificados</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.classificados.em.com.br/anunciar?utm_source=portaluai&utm_campaign=rd" target="_blank">Quero anunciar</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.uai.com.br/entretenimento/?utm_source=portaluai&utm_campaign=rd" target="_blank">Entretenimento</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/famosos/?utm_source=portaluai&utm_campaign=rd" target="_blank">Famosos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/series-e-tv/?utm_source=portaluai&utm_campaign=rd" target="_blank">Séries e TV</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/cinema/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cinema</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/musica/?utm_source=portaluai&utm_campaign=rd" target="_blank">Música</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/trends/?utm_source=portaluai&utm_campaign=rd" target="_blank">Trends</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/comportamento/?utm_source=portaluai&utm_campaign=rd" target="_blank">Comportamento</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/gastronomia/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gastronomia</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/entretenimento/tech/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tech</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.uai.com.br/promocao/?utm_source=portaluai&utm_campaign=rd" target="_blank">Promoções</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.mg.superesportes.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Superesportes</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/america-mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">América</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/atletico-mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Atlético</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/cruzeiro/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cruzeiro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/volei/?utm_source=portaluai&utm_campaign=rd" target="_blank">Vôlei</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/basquete/?utm_source=portaluai&utm_campaign=rd" target="_blank">Basquete</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/interior/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Mineiro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/futebol-nacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Nacional</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.mg.superesportes.com.br/futebol/futebol-internacional/?utm_source=portaluai&utm_campaign=rd" target="_blank">Futebol Internacional</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://concursos.uai.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Concursos</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.uai.com.br/saude/?utm_source=portaluai&utm_campaign=rd" target="_blank">Saúde Plena</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://estadodeminas.vrum.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Veículos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/busca?conteudo=anuncio&veiculo=Carro&estado=MG&de=Vrum-busca1?utm_source=portaluai&utm_campaign=rd" target="_blank">Encontre um veículo</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://vender2.vrum.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Anuncie seu veículo</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/noticias/?utm_source=portaluai&utm_campaign=rd" target="_blank">Últimas notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.vrum.com.br/videos/?utm_source=portaluai&utm_campaign=rd" target="_blank">Vídeos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/programavrum" target="_blank">Vrum no Facebook</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.vrum.com.br/minharevenda?utm_source=portaluai&utm_campaign=rd" target="_blank">Cadastre sua Revenda</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.revistaencontro.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Revista Encontro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/revista/?utm_source=portaluai&utm_campaign=rd" target="_blank">Notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/cultura/?utm_source=portaluai&utm_campaign=rd" target="_blank">Cultura</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.revistaencontro.com.br/canal/gastro/?utm_source=portaluai&utm_campaign=rd" target="_blank">Gastrô</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://estadodeminas.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Imóveis</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/busca/mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Encontre um imóvel</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://anuncie2.lugarcerto.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Anuncie seu imóvel</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/busca/lancamento/mg/?utm_source=portaluai&utm_campaign=rd" target="_blank">Lancamentos</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/noticias/noticias/?utm_source=portaluai&utm_campaign=rd" target="_blank">Últimas notícias</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.facebook.com/lugarcertoda" target="_blank">Lucar Certo no Facebook</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://estadodeminas.lugarcerto.com.br/imobiliarias/?cadastro?utm_source=portaluai&utm_campaign=rd" target="_blank">Cadastre sua Imobiliária</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://uaiagro.com.br/" target="_blank">Agro</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/pecuaria/" target="_blank">Pecuária</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/agricultura/" target="_blank">Agricultura</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://uaiagro.com.br/cotacoes/" target="_blank">Cotações</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2" >
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="https://www.alterosa.com.br/?utm_source=portaluai&utm_campaign=rd" target="_blank">Tv Alterosa</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/alterosa-alerta/?utm_source=portaluai&utm_campaign=rd" target="_blank">Alterosa Alerta</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/jornal-da-alterosa/?utm_source=portaluai&utm_campaign=rd" target="_blank">Jornal da Alterosa</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/tv-verdade/?utm_source=portaluai&utm_campaign=rd" target="_blank">TV Verdade</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/alterosa-esporte/?utm_source=portaluai&utm_campaign=rd" target="_blank">Alterosa Esporte</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/bola-na-area/?utm_source=portaluai&utm_campaign=rd" target="_blank">Bola na Área</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="https://www.alterosa.com.br/programas/mma-alterosa/?utm_source=portaluai&utm_campaign=rd" target="_blank">MMA Alterosa</a></li>
+                    </ul>
+                    <ul class="lista-normal" >
+                        <li class="lista-normal-head" ><a class="standard-font color-black2 bold tituloH4" href="javascript:void(0);" target="_blank">Outros</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">Correio Braziliense</a></li>
+                        <li><a class="standard-font color-black2 f14-3" href="javascript:void(0);" target="_blank">CorreioWeb</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fundo bg-blue3 footer2" >
+        <div class="container" >
+            <div class="d-flex justify-content-between pt-2 pt-sm-3-5" >
+                <div class="d-none d-sm-flex flex-wrap" >
+                    <a class="standard-font f14-3 bold color-white1 me-5" href="javascript:void(0);" target="_blank">Termos e condições</a>
+                    <a class="standard-font f14-3 bold color-white1 me-5" href="https://www.em.com.br/politica-de-privacidade/" target="_blank">Política de privacidade</a>
+                    <a class="standard-font f14-3 bold color-white1" href="https://www.em.com.br/fale-conosco" target="_blank">Entre em contato</a>
+                </div>
+                <a class="d-block standard-font f14-3 bold color-white1 text-center" href="#" target="_blank">© 2021 Diários Associados - Todos os direitos reservados</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/bootstrap-5.0.2.min.js" defer></script>
+<script type="text/javascript" src="js/swiper-bundle.min.js" defer></script>
+<script type="text/javascript" src="js/e+.js" defer></script>
+<script type="text/javascript" src="js/galeria.js" defer></script>
+</body>
+</html>
